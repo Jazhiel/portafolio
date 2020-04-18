@@ -1,0 +1,74 @@
+/* Comentario */
+/* 
+reglas : se compone por el selector y sus definiciones
+selectores : Identificación de elementos en el DOM, precede los { }
+declaraciones : Todo lo que hacemos con el selector, suele estar rodeado por { }
+propiedades : Lo que podemos hacer con los elementos
+valores : Especificar el comportamiento de la propiedad
+*/
+
+/* 
+Tipos de selectores:
+* selector de etiqueta (header { } - section { } - article { } - nav { } - body { } )
+* selector de hijos - descendente ( body header div nav ol li a { } )
+* selector de clase, atributo html class ( .nombre-clase { } )
+* selector de id, atributo html id ( #nombreID { } )
+*/
+
+/* header {
+  background: gray;
+} */
+
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Fjalla One', sans-serif;
+  letter-spacing: -.2px; /*Espacio entre las letras*/
+  font-weight: normal; /*El grueso de las letras*/
+  /* normal = 400
+  bold   = 600 */
+  /* font-style: italic; Si no tienes descargada la fuente italic el navegador la modifica*/
+  /* text-transform: capitalize; transformar texto mayúsculas y es mejor hacerlo en css */
+  /* text-decoration: underline; subrayados, tachados */
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 1.5em; /* 150% */
+  color: white;
+}
+
+h1 strong {
+  color: #026fff;
+}
+
+.hero {
+  height: 300px;
+  background-image: url(../img/hero.jpg);
+  background-color: #1B2127;
+  background-size: 500px 300px;
+  background-repeat: no-repeat;
+  background-position-x: right;
+}
+
+.project-details {
+  width: 500px;
+  height: 200px;
+}
+
+.project-imageContainer {
+  width: 500px;
+}
+
+.header {
+  background-color: #1B2127;
+  color: white;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+}
