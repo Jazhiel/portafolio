@@ -38,7 +38,10 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 40px;
   line-height: 1.5em; /* 150% */
+  letter-spacing: -.2px;
   color: white;
+  margin: 100px 520px 0px 0px;
+  /* margin: top right bottom left; */
 }
 
 h1 strong {
@@ -54,9 +57,25 @@ h1 strong {
   background-position-x: right;
 }
 
+.project {
+  /* border-top: 10px solid red;
+  border-right: 10px solid green;
+  border-left: 10px solid orange;
+  border-bottom: 10px solid pink; */
+  /* border-top: tamaño tipo color; */
+  /* Si no se asigna color al border lo toma del color del texto */
+  /* border-top-color: red;
+  border-top-width: 15px;
+  border-top-style: solid; */
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
 .project-details {
   width: 500px;
-  height: 200px;
+  /* height: 200px; */
+  /* margin: 0px; */
 }
 
 .project-imageContainer {
