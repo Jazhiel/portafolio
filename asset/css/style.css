@@ -22,6 +22,7 @@ Tipos de selectores:
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -57,6 +58,11 @@ h1 strong {
   background-position-x: right;
 }
 
+.portfolio {
+  background-color: #FAFAFA;
+  /* background-color: red; */
+}
+
 .project {
   /* border-top: 10px solid red;
   border-right: 10px solid green;
@@ -69,7 +75,10 @@ h1 strong {
   border-top-style: solid; */
   border: 1px solid gray;
   border-radius: 10px;
+  margin: 10px;
   margin-bottom: 15px;
+  padding: 20px;
+  background-color: #FFFFFF;
 }
 
 .project-details {
