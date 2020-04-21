@@ -100,3 +100,24 @@ h1 strong {
   color: white;
   text-decoration: none;
 }
+
+
+.flexbox {
+  display: flex;
+  /* flex-wrap: nowrap; */
+  flex-wrap: nowrap;
+  /* flex-direction: column; */
+  justify-content: space-evenly;
+  height: 500px;
+  align-items: center;
+}
+
+
+.box {
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  border: 1px solid red;
+
+  flex-shrink: 0;
+}
