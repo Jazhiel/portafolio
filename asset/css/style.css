@@ -30,7 +30,8 @@ body {
   color: white;
   display: flex;
   justify-content: space-between;
-  height: 90px;
+  align-items: center;
+  height: 70px;
 }
 
 .header figure {
@@ -78,7 +79,8 @@ h1 {
   line-height: 1.5em; /* 150% */
   letter-spacing: -.2px;
   color: white;
-  margin: 100px 520px 0px 0px;
+  margin: 0;
+  /* margin: 100px 520px 0px 0px; */
   /* margin: top right bottom left; */
 }
 
@@ -93,6 +95,8 @@ h1 strong {
   background-size: 500px 300px;
   background-repeat: no-repeat;
   background-position-x: right;
+  display: flex;
+  align-items: center;
 }
 
 .portfolio {
@@ -126,4 +130,16 @@ h1 strong {
 
 .project-imageContainer {
   width: 500px;
+}
+
+.footer {
+  color: white;
+  background-color: #1B2127;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer img {
+  vertical-align: middle;
 }
