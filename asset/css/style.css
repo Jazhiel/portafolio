@@ -88,6 +88,15 @@ h1 strong {
   color: #026fff;
 }
 
+h2 {
+  color: #026fff;
+  text-transform: uppercase;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
 .hero {
   height: 300px;
   background-image: url(../img/hero.jpg);
@@ -101,6 +110,7 @@ h1 strong {
 
 .portfolio {
   background-color: #FAFAFA;
+  padding: 20px;
   /* background-color: red; */
 }
 
@@ -116,10 +126,13 @@ h1 strong {
   border-top-style: solid; */
   border: 1px solid gray;
   border-radius: 10px;
-  margin: 10px;
+  /* margin: 10px; */
   margin-bottom: 15px;
   padding: 20px;
   background-color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .project-details {
@@ -128,8 +141,28 @@ h1 strong {
   /* margin: 0px; */
 }
 
+.project-details strong {
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.project-title {
+  font-size: 30px;
+  margin: 0 0 10px 0;
+}
+
+.project-course,
+.project-date,
+.project-url {
+  margin: 10px 0;
+}
+
+.project-description {
+  font-size: 20px;
+}
+
 .project-imageContainer {
   width: 500px;
+  margin: 0;
 }
 
 .footer {
