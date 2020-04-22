@@ -224,6 +224,73 @@ h2 {
   border-radius: 5px;
 }
 
+.contact {
+  background-color: #056FFF;
+  color: white;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form-email h3 {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.form-email input {
+  border-color: gray;
+  border-radius: 5px;
+  border-style: solid;
+  padding: 10px 20px 10px 25px;
+  background-image: url('../img/envelope.svg');
+  background-size: 15px 15px;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 5px;
+}
+
+.form-email button {
+  display: block;
+  margin-top: 10px;
+  background: transparent;
+  color: white;
+  border: 1px solid;
+  padding: 10px 0;
+  border-radius: 5px;
+  width: 100px;
+  margin-top: 10px;
+  /* margin: 10px auto 0; */
+}
+
+/* .social {
+  border: 1px solid red;
+} */
+
+.social-link {
+  display: inline-block;
+  /* border: 1px solid white; */
+  height: 50px;
+  width: 50px;
+  background-size: 50px 50px;
+  margin: 0 20px;
+}
+
+.social-link.twitter {
+  background-image: url('../img/twitter.svg');
+}
+
+.social-link.facebook {
+  background-image: url('../img/facebook.svg');
+}
+
+.social-link.github {
+  background-image: url('../img/github.svg');
+}
+
+.social-link.instagram {
+  background-image: url('../img/instagram.svg');
+}
+
 .footer {
   color: white;
   background-color: #1B2127;
